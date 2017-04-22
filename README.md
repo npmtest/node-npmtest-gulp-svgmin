@@ -1,4 +1,7 @@
-# test coverage for  [gulp-svgmin (v1.2.3)](https://github.com/ben-eb/gulp-svgmin)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-svgmin.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-svgmin)
+# npmtest-gulp-svgmin
+
+#### basic test coverage for  [gulp-svgmin (v1.2.3)](https://github.com/ben-eb/gulp-svgmin)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-svgmin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-svgmin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-svgmin.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-svgmin)
+
 #### Minify SVG files with gulp.
 
 [![NPM](https://nodei.co/npm/gulp-svgmin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-svgmin)
@@ -110,7 +113,8 @@
         "test": "nyc ava src/__tests__",
         "test-012": "nyc ava src/__tests__"
     },
-    "version": "1.2.3"
+    "version": "1.2.3",
+    "bin": {}
 }
 ```
 
